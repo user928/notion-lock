@@ -13,30 +13,30 @@
   <body>
       <div class="container p-3">
         <div>
-            <label>Senha</label>
+            <label>Password</label>
             <input class="form-control" name="password" id="password" type="password">
         </div>
         <div>
-            <label>Texto</label>
+            <label>Text to Encrypt/Decrypt</label>
             <textarea class="form-control" id="text" rows="10"></textarea>
         </div>
         <div class="form-check">
             <input class="form-check-input" type="radio" name="option" id="optionEncrypt">
             <label class="form-check-label" for="optionEncrypt">
-                Encriptar
+                Encrypt Text
             </label>
         </div>
         <div class="form-check">
             <input class="form-check-input" type="radio" name="option" id="optionDecrypt">
             <label class="form-check-label" for="optionDecrypt">
-                Decriptar
+                Decrypt Text
             </label>
         </div>
         <div>
-            <button id="go" type="button" class="btn btn-primary">Gerar texto</button>
-            <button onclick="copy()" type="button" class="btn btn-success ml-4">Copiar para o clipboard</button>
+            <button id="go" type="button" class="btn btn-primary">Generate Text</button>
+            <button onclick="copy()" type="button" class="btn btn-success ml-4">Copy to clipboard</button>
         </div>
-        <h1 class="mt-1">Resultado</h1>
+        <h1 class="mt-1">Result:</h1>
         <div id="result" style='white-space:pre'>
             
         </div>
